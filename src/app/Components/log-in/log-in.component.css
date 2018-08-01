@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(165, 60, 10)
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-top: 100px;
+    margin-bottom: 10px; /* Added */
+}
