@@ -1,3 +1,23 @@
-<p>
-  header works!
-</p>
+<!-- The navbar -->
+<nav class="navbar navbar-light bg-light">
+  <!-- The Logo -->
+  <div class="col-lg-1">
+    <span class="navbar-brand mb-0 h2"><b>Towa</b></span>
+  </div>
+  <!-- The date -->
+  <div class="col-lg-3 nav-item">
+    {{ NowDate | date: 'fullDate' }}
+  </div>
+  <!-- The user -->
+  <div class="col-lg-1 nav-item">
+    David Rada
+  </div>
+  <!-- for the dropdown menu for surprise-->
+  <li class="dropdown" >
+    <a style="cursor: pointer;" class="dropdown-toggle" role="button">Manage<span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a style="cursor: pointer;">Save Data</a></li>
+      <li><a style="cursor: pointer;">Fetch Data</a></li>
+    </ul>
+  </li>
+</nav>
