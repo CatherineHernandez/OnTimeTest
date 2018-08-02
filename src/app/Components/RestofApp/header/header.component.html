@@ -9,15 +9,48 @@
     {{ NowDate | date: 'fullDate' }}
   </div>
   <!-- The user -->
-  <div class="col-lg-1 nav-item">
+  <div class="col-lg-2 nav-item">
     David Rada
   </div>
   <!-- for the dropdown menu for surprise-->
-  <li class="dropdown" >
-    <a style="cursor: pointer;" class="dropdown-toggle" role="button">Manage<span class="caret"></span></a>
-    <ul class="dropdown-menu">
-      <li><a style="cursor: pointer;">Save Data</a></li>
-      <li><a style="cursor: pointer;">Fetch Data</a></li>
+  <div class="col-lg-2">
+    <ul class="nav-item dropdown">
+      <p style="cursor: pointer;" class="allign-item-down nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+        Supervise
+      </p>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a style="cursor: pointer;" class="dropdown-item" href="#">Weekly Summary</a>
+        <div class="dropdown-divider"></div>
+        <a style="cursor: pointer;" class="dropdown-item" href="#">Per Person Week</a>
+      </div>
     </ul>
-  </li>
+  </div>
+   <!-- for the dropdown menu for manage-->
+   <div class="col-lg-2">
+    <ul class="nav-item dropdown">
+      <p style="cursor: pointer;" class="allign-item-down nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Manage
+      </p>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a style="cursor: pointer;" class="dropdown-item" href="#">Business Units</a>
+        <div class="dropdown-divider"></div>
+        <a style="cursor: pointer;" class="dropdown-item" href="#">Projects</a>
+        <div class="dropdown-divider"></div>
+        <a style="cursor: pointer;" class="dropdown-item" href="#">People</a>
+      </div>
+    </ul>
+  </div>
+   <!-- for the dropdown menu for my account-->
+   <div class="col-lg-2">
+    <ul class="nav-item dropdown">
+      <p style="cursor: pointer;" class="allign-item-down nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        My Account
+      </p>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a style="cursor: pointer;" class="dropdown-item" href="#">My Info</a>
+        <div class="dropdown-divider"></div>
+        <a style="cursor: pointer;" class="dropdown-item" href="#">Change Password</a>
+      </div>
+    </ul>
+  </div>
 </nav>
