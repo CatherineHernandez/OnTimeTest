@@ -1,14 +1,42 @@
 
 .bodyBackground {
-    background-color: red;
-    height: 100%;
-    display: flex;
+    background-color:rgba(0, 0, 0, 0.87);
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   top: 0;
   align-items: center;
 }
 
-.card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-     
-   
-} 
+
+.bodyBackground .modal-header{
+    background-color: #d85936;
+     height: 130px;
+     position: relative;
+    
+}
+
+.bodyBackground .modal-header img {
+    height: 40px;
+    padding-left: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.modal-content{
+    border-radius: 1.5rem;
+}
+
+.modal-header{
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.bodyBackground button {
+    background-color: #d85936;
+    color: white;
+}
+
+
